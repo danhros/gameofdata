@@ -1,0 +1,31 @@
+/*Adding background for the slides
+	* --------------------------------------- */
+	
+	/*slide 1*/
+	#slide1{
+		background-color: lightgrey;
+		padding: 3% 0 0 0;
+	}
+	#slide1 h1{
+		color: white;
+		font-weight: bold;
+		text-shadow: 4px 4px 4px #000000;
+	}
+
+	/*slide 2*/
+	#slide2{
+		background-image: url(images/bg5.jpg);
+		padding: 6% 0 0 0;
+	}
+
+	/*slide 3*/
+	#slide3{
+		background-color: lightgrey;
+		padding: 1% 0 0 0;
+	}
+
+	/*slide 4*/
+	#slide4{
+		background-color: lightgrey;
+		padding: 1% 0 0 0;
+	}

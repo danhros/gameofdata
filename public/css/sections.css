@@ -1,0 +1,106 @@
+/* Style for our header texts
+	* --------------------------------------- */
+	h1{
+		font-size: 5em;
+		font-family: arial,helvetica;
+		color: #fff;
+		margin:0;
+		padding:0;
+	}
+
+	/* Centered texts in each section
+	* --------------------------------------- */
+	.section{
+		text-align:center;
+		background-size: cover;
+		background-attachment: fixed;
+	}
+
+	.slide{
+		background-size: cover;
+		background-attachment: fixed;
+	}
+
+	/* Defining each section background and styles
+	* --------------------------------------- */
+	
+	/*section 0*/
+
+	#section0{
+		background-image: url(../images/got_blueEye2.jpg);
+		padding: 3% 0 0 0;
+	}
+	#section0 h1{
+		font-size: 3em;
+		margin: 20px;
+		font-weight: bold;
+		text-shadow: 4px 4px 4px #000000;
+		/*top: 50%;
+		transform: translateY(-50%);
+		position: relative;*/
+	}
+
+	/*section 2*/
+
+	#section2{
+		background-image: url(../images/got_houses.jpg);
+		padding: 15% 0 0 0;
+	}
+	#section2 h1{
+		text-transform: uppercase;
+		font-weight: bold;
+		text-shadow: 4px 4px 4px #000000;
+	}
+
+	/*section 3*/
+
+	#section3{
+		background-image: url(../images/got_jonSnow.jpg);
+		padding: 15% 0 0 0;
+	}
+	#section3 h1{
+		text-transform: uppercase;
+		font-weight: bold;
+		text-shadow: 4px 4px 4px #000000;
+	}
+
+	/*section 4*/
+
+	#section4{
+		background-image: url(../images/got_raven.jpg);
+		padding: 15% 0 0 0;
+	}
+	#section4 h1{
+		font-size: 4.5em;
+		text-transform: uppercase;
+		font-weight: bold;
+		text-shadow: 4px 4px 4px #000000;
+	}
+
+	/*section 5*/
+
+	#section5{
+		background-image: url(../images/got_jonSnow.jpg);
+		padding: 2% 0 0 0;
+	}
+	#section5 h1{
+		color: #000;
+	}
+	#section5 img{
+		height: 65%;
+		margin: 40px;
+	}
+
+	/*section 6*/
+
+	#section6{
+		background-image: url(../images/got_jonSnow.jpg);
+		padding: 2% 0 0 0;
+	}
+	#section6 h1{
+		color: #000;
+	}
+	#section6 img{
+		height: 65%;
+		margin: 40px;
+	}
