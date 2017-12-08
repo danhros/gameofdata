@@ -16,7 +16,7 @@
 		<link rel="stylesheet" type="text/css" href="css/slides.css" />
 		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 		
-		<script type="text/javascript" src="js/countdown.js"></script>	
+		<script type="text/javascript" src="js/countdown.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
 		<script type="text/javascript" src="js/jquery.fullPage.js"></script>
@@ -28,13 +28,31 @@
 				});
 			});
 		</script>
+		<!-- Plotly.js -->
+        <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+        <!-- Numeric JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/numeric/1.2.6/numeric.min.js"></script>
+
 	</head>
 
 	<body>
 		<div id="fullpage">
+
+			<div class="section" id="Home_page">
+				<h1>The night is dark and full of data</h1>
+				<br><br>
+				<h2>This is a Data visualization project about game of thrones</h2>
+				<br><br>
+				<h2>Scroll down if you want to know more about it</h2>
+			</div>
+
+			<div class="section" id="disclaimer">
+				<h1>This article is the result of an in-depth analysis of the successful TV show Game of thrones.<br><br>We used unofficial data from HBO collected by an IMDB user who manually retrieved it.<br><br>We have done our best to be independent of all intuitions or emotions in the interpretation of the data<br>in order to present the most relevant vision of the future of this TV show.</h1>
+			</div>
+
 			<div class="section " id="compteur">
 				<div>
-					<h1><font style="text-transform: uppercase;">Don't want to wait that long to discover<br/>who'll be sitting on the iron throne?</font></h1>
+					<h1>The Next episode will be released in:</h1>
 				</div>
 				<div>
 					<p id="days"></p>
@@ -49,6 +67,9 @@
 				        <li>MINS</li>
 				        <li>SECS</li>
 				    </ul>
+				</div>
+				<div>
+					<h2>Don't want to wait that long<br>to discover who'll be sitting on the iron throne?</h2>
 				</div>
 			</div>
 			
@@ -70,8 +91,17 @@
 				</div>
 			</div> -->
 			
-			<div class="section" id="teaser">
-				<h1>Keep Scrolling Down<br><br>to Know<br><br>Which House Will Win</h1>
+			<div class="section" id="houses">
+				<div class="housesNames">
+				    <ul>
+				    	<li>Stark</li>
+				        <li>Baratheon</li>
+				        <li>Targaryen</li>
+				        <li>Lannister</li>
+				        <li>Greyjoy</li>
+				    </ul>
+				</div>
+				<h1>Keep Scrolling Down to Know<br>Which House Will Win</h1>
 			</div>
 
 			<div class="section" id="commander">
@@ -89,6 +119,10 @@
 			<div class="section" id="section4">
 				<h1>In Got we trust<br>all others must bring data!</h1>
 			</div>
+
+			<div class="section" id="battleStrat"></div>
+			<div class="section" id="screenMain"></div>
+			<div class="section" id="screenDead"></div>
 			
 			<!-- <div class="section" id="section6">
 				<h1>Section 5</h1>
@@ -97,4 +131,7 @@
 			</div> -->
 		</div>
 	</body>
+	<script type="text/javascript" src="js/battleStrat.js"></script>
+	<script type="text/javascript" src="js/screenMain.js"></script>
+	<script type="text/javascript" src="js/screenDead.js"></script>
 </html>

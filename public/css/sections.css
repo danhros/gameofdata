@@ -1,6 +1,6 @@
 /* Style for our header texts
 	* --------------------------------------- */
-	h1{
+	h1, h2{
 		font-size: 5em;
 		font-family: arial,helvetica;
 		color: #fff;
@@ -24,7 +24,41 @@
 	/* Defining each section background and styles
 	* --------------------------------------- */
 	
-	/*section 0*/
+	/*Home Page*/
+
+	#Home_page{
+		background-image: url(../images/got_throne_flou.jpg);
+		padding: 12% 0 0 0;
+	}
+	#Home_page h1{
+		color: black;
+		font-size: 4em;
+		text-transform: uppercase;
+		font-weight: bold;
+		text-shadow: 4px 4px 4px white;
+	}
+
+	#Home_page h2{
+		font-size: 2.2em;
+		text-transform: uppercase;
+		font-weight: bold;
+		text-shadow: 4px 4px 4px #000000;
+	}
+	
+	/*disclaimer*/
+
+	#disclaimer{
+		background-image: url(../images/got_throne_flou.jpg);
+		padding: 15% 0 0 0;
+	}
+	#disclaimer h1{
+		font-size: 1.5em;
+		/*text-transform: uppercase;*/
+		font-weight: bold;
+		text-shadow: 4px 4px 4px #000000;
+	}
+
+	/*compteur*/
 
 	#compteur{
 		background-image: url(../images/got_blueEye2.jpg);
@@ -32,28 +66,52 @@
 	}
 	#compteur h1{
 		font-size: 3em;
+		text-transform: uppercase;
 		margin: 20px;
 		font-weight: bold;
 		text-shadow: 4px 4px 4px #000000;
-		/*top: 50%;
-		transform: translateY(-50%);
-		position: relative;*/
 	}
 
-	/*section 2*/
-
-	#teaser{
-		background-image: url(../images/got_houses.jpg);
-		padding: 10% 0 0 0;
-	}
-	#teaser h1{
-		font-size: 4em;
+	#compteur h2{
+		font-size: 1.7em;
 		text-transform: uppercase;
+		margin: 320px 0 0 0;
 		font-weight: bold;
 		text-shadow: 4px 4px 4px #000000;
 	}
 
-	/*section 3*/
+	/*houses*/
+
+	#houses{
+		background-image: url(../images/got_houses.jpg);
+		padding: 10% 0 0 0;
+	}
+	#houses h1{
+		margin: 27% 0 0 0;
+		background-color: black;
+		font-size: 3em;
+		text-transform: uppercase;
+		font-weight: bold;
+		text-shadow: 6px 6px 6px #000000;
+	}
+
+	.housesNames ul {
+	  list-style-type: none;
+	  text-transform: uppercase;
+	  }
+
+	  .housesNames ul li {
+	    display: inline-block;
+	    text-align: center;
+	    font-size: 2.5em;
+	    font-weight: bold;
+	    color: white;
+	    width: 20%;
+	    float: left;
+	    text-shadow: 4px 4px 4px #000000;
+	  }
+
+	/*commander*/
 
 	#commander{
 		background-image: url(../images/got_mountain_flou.jpg);
@@ -65,7 +123,7 @@
 		text-shadow: 4px 4px 4px #000000;
 	}
 
-	/*section 5*/
+	/*commander_result*/
 
 	#commander_result{
 		/*background-image: url(../images/got_jonSnow.jpg);*/
@@ -97,16 +155,26 @@
 		text-shadow: 4px 4px 4px #000000;
 	}
 
-	/*section 6*/
+	/*battleStrat*/
 
-	#section6{
+	#battleStrat{
+		/*background-image: url(../images/got_jonSnow.jpg);*/
 		background-image: url(../images/got_mountain.jpg);
 		padding: 2% 0 0 0;
 	}
-	#section6 h1{
-		color: #000;
+
+	/*screenMain*/
+
+	#screenMain{
+		/*background-image: url(../images/got_jonSnow.jpg);*/
+		background-image: url(../images/got_mountain.jpg);
+		padding: 2% 0 0 0;
 	}
-	#section6 img{
-		height: 65%;
-		margin: 40px;
+
+	/*screenDead*/
+
+	#screenDead{
+		/*background-image: url(../images/got_jonSnow.jpg);*/
+		background-image: url(../images/got_mountain.jpg);
+		padding: 2% 0 0 0;
 	}
