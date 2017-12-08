@@ -103,7 +103,7 @@
 	  .housesNames ul li {
 	    display: inline-block;
 	    text-align: center;
-	    font-size: 2.5em;
+	    font-size: 2.2em;
 	    font-weight: bold;
 	    color: white;
 	    width: 20%;
@@ -118,6 +118,7 @@
 		padding: 15% 0 0 0;
 	}
 	#commander h1{
+		font-size: 3.6em;
 		text-transform: uppercase;
 		font-weight: bold;
 		text-shadow: 4px 4px 4px #000000;
@@ -126,12 +127,11 @@
 	/*commander_result*/
 
 	#commander_result{
-		/*background-image: url(../images/got_jonSnow.jpg);*/
-		background-image: url(../images/got_mountain.jpg);
+		background-image: url(../images/got_mountain_flou.jpg);
 		padding: 2% 0 0 0;
 	}
 	#commander_result h1{
-		font-size: 3.5em;
+		font-size: 3em;
 		text-transform: uppercase;
 		font-weight: bold;
 		text-shadow: 4px 4px 4px #000000;
@@ -142,39 +142,104 @@
 		margin: 5px;
 	}
 
-	/*section 4*/
-
-	#section4{
-		background-image: url(../images/got_raven.jpg);
-		padding: 15% 0 0 0;
-	}
-	#section4 h1{
-		font-size: 4.5em;
-		text-transform: uppercase;
-		font-weight: bold;
-		text-shadow: 4px 4px 4px #000000;
-	}
-
 	/*battleStrat*/
 
+	#battleStrat_before{
+		/*background-image: url(../images/got_mountain.jpg);*/
+		background-color: #92b9df;
+		padding: 15% 2% 0 2%;
+	}
+
+	#battleStrat_before h1{
+		font-size: 1.5em;
+		/*text-transform: uppercase;*/
+		font-weight: bold;
+		/*text-shadow: 4px 4px 4px #000000;*/
+	}
+
 	#battleStrat{
-		/*background-image: url(../images/got_jonSnow.jpg);*/
-		background-image: url(../images/got_mountain.jpg);
+		/*background-image: url(../images/got_mountain.jpg);*/
+		background-color: #92b9df;
 		padding: 2% 0 0 0;
+	}
+
+	#battleStrat_after{
+		/*background-image: url(../images/got_mountain.jpg);*/
+		background-color: #92b9df;
+		padding: 15% 2% 0 2%;
+	}
+
+	#battleStrat_after h1{
+		font-size: 1.5em;
+		/*text-transform: uppercase;*/
+		font-weight: bold;
+		/*text-shadow: 4px 4px 4px #000000;*/
 	}
 
 	/*screenMain*/
 
+	#screenMain_before{
+		/*background-image: url(../images/got_mountain.jpg);*/
+		background-color: #eb9c7e;
+		padding: 15% 2% 0 2%;
+	}
+
+	#screenMain_before h1{
+		font-size: 1.5em;
+		/*text-transform: uppercase;*/
+		font-weight: bold;
+		/*text-shadow: 4px 4px 4px #000000;*/
+	}
+
 	#screenMain{
-		/*background-image: url(../images/got_jonSnow.jpg);*/
-		background-image: url(../images/got_mountain.jpg);
+		/*background-image: url(../images/got_mountain.jpg);*/
+		background-color: #eb9c7e;
 		padding: 2% 0 0 0;
+	}
+
+	#screenMain_after{
+		/*background-image: url(../images/got_mountain.jpg);*/
+		background-color: #eb9c7e;
+		padding: 15% 2% 0 2%;
+	}
+
+	#screenMain_after h1{
+		font-size: 1.5em;
+		/*text-transform: uppercase;*/
+		font-weight: bold;
+		/*text-shadow: 4px 4px 4px #000000;*/
 	}
 
 	/*screenDead*/
 
+	#screenDead_before{
+		/*background-image: url(../images/got_mountain.jpg);*/
+		background-color: #92b9df;
+		padding: 15% 2% 0 2%;
+	}
+
+	#screenDead_before h1{
+		font-size: 1.5em;
+		/*text-transform: uppercase;*/
+		font-weight: bold;
+		/*text-shadow: 4px 4px 4px #000000;*/
+	}
+
 	#screenDead{
-		/*background-image: url(../images/got_jonSnow.jpg);*/
-		background-image: url(../images/got_mountain.jpg);
+		/*background-image: url(../images/got_mountain.jpg);*/
+		background-color: #92b9df;
 		padding: 2% 0 0 0;
+	}
+
+	#screenDead_after{
+		/*background-image: url(../images/got_mountain.jpg);*/
+		background-color: #92b9df;
+		padding: 15% 2% 0 2%;
+	}
+
+	#screenDead_after h1{
+		font-size: 1.5em;
+		/*text-transform: uppercase;*/
+		font-weight: bold;
+		/*text-shadow: 4px 4px 4px #000000;*/
 	}
