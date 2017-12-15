@@ -8,14 +8,36 @@
 		padding:0;
 	}
 
-	/* Centered texts in each section
-	* --------------------------------------- */
-	.section{
-		text-align:center;
-		background-size: cover;
-		background-attachment: fixed;
+	@font-face {
+    	font-family: GameofThrones;
+    	src: url('Game_of_Thrones.ttf') format('truetype'); /* TTF file for CSS3 browsers */
 	}
 
+	/* Style sections
+	* --------------------------------------- */
+	.section{
+		/*background-image: url(../images/background.jpg);*/
+		background-color: #dfdece;
+		text-align:center;
+		background-size: cover;
+		padding: 2% 0 0 0;
+	}
+
+	.section h1{
+		font-size: 3em;
+		text-transform: uppercase;
+		font-weight: bold;
+		text-shadow: 4px 4px 4px #000000;
+	}
+
+	.section img{
+		width: 70%;
+		max-height: 95%;
+		margin: 5px;
+	}
+
+	/* Style slides
+	* --------------------------------------- */
 	.slide{
 		background-size: cover;
 		background-attachment: fixed;
@@ -27,12 +49,16 @@
 	/*Home Page*/
 
 	#Home_page{
-		background-image: url(../images/got_throne_flou.jpg);
+		/*background-repeat: no-repeat;*/
+		background-size: contain;
+		background-position: center;
+		background-image: url(../images/gameOfData.jpg);
 		padding: 12% 0 0 0;
 	}
 	#Home_page h1{
 		color: black;
 		font-size: 4em;
+		/*font-family: GameofThrones;*/
 		text-transform: uppercase;
 		font-weight: bold;
 		text-shadow: 4px 4px 4px white;
@@ -48,7 +74,7 @@
 	/*disclaimer*/
 
 	#disclaimer{
-		background-image: url(../images/got_throne_flou.jpg);
+		/*background-image: url(../images/got_throne_flou.jpg);*/
 		padding: 15% 0 0 0;
 	}
 	#disclaimer h1{
@@ -111,135 +137,50 @@
 	    text-shadow: 4px 4px 4px #000000;
 	  }
 
-	/*commander*/
+	/*stat1*/
 
-	#commander{
-		background-image: url(../images/got_mountain_flou.jpg);
-		padding: 15% 0 0 0;
-	}
-	#commander h1{
-		font-size: 3.6em;
-		text-transform: uppercase;
-		font-weight: bold;
-		text-shadow: 4px 4px 4px #000000;
+	#stat1{
+
 	}
 
-	/*commander_result*/
+	/*podium*/
 
-	#commander_result{
-		background-image: url(../images/got_mountain.jpg);
-		padding: 2% 0 0 0;
-	}
-	#commander_result h1{
-		font-size: 3em;
-		text-transform: uppercase;
-		font-weight: bold;
-		text-shadow: 4px 4px 4px #000000;
+	#podium{
+		
 	}
 
-	#commander_result img{
-		height: 85%;
-		margin: 5px;
+	/*race*/
+
+	#race{
+		
 	}
 
 	/*battleStrat*/
 
-	#battleStrat_before{
-		/*background-image: url(../images/got_mountain.jpg);*/
-		background-color: #92b9df;
-		padding: 15% 2% 0 2%;
-	}
-
-	#battleStrat_before h1{
-		font-size: 1.5em;
-		/*text-transform: uppercase;*/
-		font-weight: bold;
-		/*text-shadow: 4px 4px 4px #000000;*/
-	}
-
 	#battleStrat{
-		/*background-image: url(../images/got_mountain.jpg);*/
-		background-color: #92b9df;
-		padding: 2% 0 0 0;
+		
 	}
 
-	#battleStrat_after{
-		/*background-image: url(../images/got_mountain.jpg);*/
-		background-color: #92b9df;
-		padding: 15% 2% 0 2%;
+	/*stat2*/
+
+	#stat2{
+		
 	}
 
-	#battleStrat_after h1{
-		font-size: 1.5em;
-		/*text-transform: uppercase;*/
-		font-weight: bold;
-		/*text-shadow: 4px 4px 4px #000000;*/
+	/*screen*/
+
+	#screen{
+		
 	}
 
-	/*screenMain*/
+	/*cemetery*/
 
-	#screenMain_before{
-		/*background-image: url(../images/got_mountain.jpg);*/
-		background-color: #eb9c7e;
-		padding: 15% 2% 0 2%;
+	#cemetery{
+
 	}
 
-	#screenMain_before h1{
-		font-size: 1.5em;
-		/*text-transform: uppercase;*/
-		font-weight: bold;
-		/*text-shadow: 4px 4px 4px #000000;*/
-	}
+	/*survivants*/
 
-	#screenMain{
-		/*background-image: url(../images/got_mountain.jpg);*/
-		background-color: #eb9c7e;
-		padding: 2% 0 0 0;
-	}
+	#survivants{
 
-	#screenMain_after{
-		/*background-image: url(../images/got_mountain.jpg);*/
-		background-color: #eb9c7e;
-		padding: 15% 2% 0 2%;
-	}
-
-	#screenMain_after h1{
-		font-size: 1.5em;
-		/*text-transform: uppercase;*/
-		font-weight: bold;
-		/*text-shadow: 4px 4px 4px #000000;*/
-	}
-
-	/*screenDead*/
-
-	#screenDead_before{
-		/*background-image: url(../images/got_mountain.jpg);*/
-		background-color: #92b9df;
-		padding: 15% 2% 0 2%;
-	}
-
-	#screenDead_before h1{
-		font-size: 1.5em;
-		/*text-transform: uppercase;*/
-		font-weight: bold;
-		/*text-shadow: 4px 4px 4px #000000;*/
-	}
-
-	#screenDead{
-		/*background-image: url(../images/got_mountain.jpg);*/
-		background-color: #92b9df;
-		padding: 2% 0 0 0;
-	}
-
-	#screenDead_after{
-		/*background-image: url(../images/got_mountain.jpg);*/
-		background-color: #92b9df;
-		padding: 15% 2% 0 2%;
-	}
-
-	#screenDead_after h1{
-		font-size: 1.5em;
-		/*text-transform: uppercase;*/
-		font-weight: bold;
-		/*text-shadow: 4px 4px 4px #000000;*/
 	}
