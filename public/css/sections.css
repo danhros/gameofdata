@@ -9,16 +9,16 @@
 	h1 {
 		font-size: 1.4em;
 	    text-align: center;
-	    font-family: 'Fjalla One', sans-serif;
-	    font-weight: 400;
+	    font-family: 'Roboto', sans-serif;
+	    font-weight: bold;
 	    text-transform: uppercase;
 	}
 
 	h3 {
-		font-size: 0.9em;
+		font-size: 1em;
 	    text-align: justify;
-	    font-family: 'Nunito', sans-serif;
-	    font-weight: 400;
+	    font-family: 'Roboto Condensed', sans-serif;
+	    font-weight: normal;
 	    width: 80%;
 	    padding: 20px;
 	    margin: auto;
@@ -32,10 +32,13 @@
 	/* Style sections
 	* --------------------------------------- */
 	.section{
-		background-color: #0012520f;
+		/*background-color: #0012520f;*/
+		background-image: url(../images/background.jpg);
 		text-align:center;
 		background-size: cover;
 		background-repeat: no-repeat;
+		background-position: center;
+		background-attachment: fixed;
 		padding: 2% 0 0 0;
 	}
 
@@ -45,16 +48,29 @@
 		margin: 5px;
 	}
 
+	tab {
+		padding-left:3em;
+		font-size: 1em;
+	    text-align: justify;
+	    font-family: 'Roboto Condensed', sans-serif;
+	    font-weight: normal;
+	}
+
 	/* Defining each section background and styles
 	* --------------------------------------- */
 	
 	/*Home Page*/
 
 	#Home_page{
-		background-repeat: no-repeat;
-		background-size: auto 100%;
-		background-position: center;
-		background-image: url(../images/gameOfData2.jpg);
+		margin: 0;
+		padding: 0;
+	}
+
+	#Home_page img{
+		height: 100%;
+		max-height: 100%;
+		width: auto;
+		margin: 0;
 	}
 	
 	/*disclaimer*/
